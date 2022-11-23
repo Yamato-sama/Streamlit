@@ -12,17 +12,12 @@ option = st.selectbox(
                     ('Supermarket Analysis', 'IMPORT & EXPORT (Sql server)','Personal Website Project'))
 
 if option == "Supermarket Analysis":
-    df = pd.read_excel('Supermarket_Sale.xlsx')
-    st.subheader("Dataset Preview")
-    st.write(df)
-
-    st.subheader("Overview")
-    des = df.describe()
-    st.write(des)
-
-    st.subheader("Sale on each City")
-    city = df.groupby('City')['Quantity'].count()
-    st.write(city)
+    st.subheader("About Project")
+    st.write("About Project visualize and analysis ")
+    st.write("  .Explore Product Supermarket")
+    st.write("Understand Which Product Category Should get Promotion.")
+    st.write("Know about the the most sold product")
+    st.write("Discover about the city that generation a lot of profit")
 
     st.subheader("Link to the project")
     st.write("https://github.com/Yamato-sama/Supermarket_Sale_Analysis-Excelv")
@@ -43,6 +38,9 @@ if option == "Personal Website Project":
     st.subheader("Streamllit Framework")
     st.write("This website also my own project that create from streamlit framework.")
     st.write("Streamlit is an open-source app framework for Machine Learning and Data Science teams. Create beautiful web apps in minutes")
+
+    st.subheader("Link to Project")
+    st.write("https://yamato-sama-streamlit-1--homepage-47z5lf.streamlit.app")
 
 
 
