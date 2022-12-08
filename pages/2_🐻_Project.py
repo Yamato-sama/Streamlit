@@ -14,7 +14,7 @@ option = st.selectbox(
 if option == "Supermarket Analysis":
     st.subheader("About Project")
     st.write("About Project visualize and analysis ")
-    st.write("  .Explore Product Supermarket")
+    st.write("Explore Product Supermarket")
     st.write("Understand Which Product Category Should get Promotion.")
     st.write("Know about the the most sold product")
     st.write("Discover about the city that generation a lot of profit")
@@ -40,7 +40,7 @@ if option == "Personal Website Project":
     st.write("Streamlit is an open-source app framework for Machine Learning and Data Science teams. Create beautiful web apps in minutes")
 
     st.subheader("Link to Project")
-    st.write("https://yamato-sama-streamlit-1--homepage-47z5lf.streamlit.app")
+    st.write("https://github.com/Yamato-sama/Streamlit")
 
 
 
